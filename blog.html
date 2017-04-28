@@ -11,7 +11,7 @@
 <!-- TODO add author w/ link to author's blog page -->
 <p class = "post-author">
    written by
-  <a href = "/blog/{{ username }}">{{ username }}</a>
+  <a href = "/blog/{{ post.author.username }}">{{ post.author.username }}</a>
 {% endfor %}
 
 {% if username %}
